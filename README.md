@@ -35,9 +35,7 @@ java -jar snpEff.jar build -gff3 -v hirsutum.genome
 After sometime your database will be ready for variant annotation
 
 # Annotating variant file 
-Input file 
-
-Variant file can be in vcf format 
+Input file can be in vcf format 
 
 Run the following command for variant annotation  
 
