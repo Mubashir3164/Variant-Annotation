@@ -4,12 +4,12 @@
 ```
 mkdir Mydirectory
 ```
-# Download snpEff
+### Download snpEff
 It can be downloaded from its website, here is the link
 http://pcingola.github.io/SnpEff/se_running/
-# unzip 
+### unzip 
 Unzip the downloaded snpEff files
-# Example
+### Example
 Here I am using Gossypium hirsutum as an example for variant annotation.
 There are pre-built databases in snpEff, you can check it with the following command
 ```
@@ -25,12 +25,12 @@ https://cottonfgd.org/about/download/annotation/gene.Ghir.CRI.gff3.gz
 ### Uzip Fasta and GFF files
 ```
 gzip -d filename.gz
-# Make a directory 
+## Make a directory 
 mkdir data/hirsutum  
 ```
 
 Put the Gff and fasta genome file in hirsutum directory and rename as sequences.fa and genes.gff
-# Edit snpEff.config file
+### Edit snpEff.config file
 To edit the config file you can use any linux commandline editor such as vi, and add hirsutum.genome at the end of it, then save it.  
 ```
 vi snpEff.config
