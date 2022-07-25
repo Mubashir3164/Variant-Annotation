@@ -35,7 +35,7 @@ To edit the config file you can use any linux commandline editor such as vi, and
 ```
 vi snpEff.config
 # To build database run the following command 
-java -jar snpEff.jar build -gff3 -v hirsutum.genome
+java -jar snpEff.jar build -gff3 -v hirsutum
 ```
 After sometime your database will be ready for variant annotation
 
